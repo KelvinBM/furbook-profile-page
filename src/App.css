@@ -1,11 +1,11 @@
 .App{
   background-image: linear-gradient(to right top, #c78592, #d2939f, #dda1ac, #e8afb9, #f3bdc7);
 }
-
+  
 .row {
-  margin: 2rem
+    margin: 2rem;
 }
-.list-group-item{
-    font-weight: 700;
-    padding:1rem
+  
+.container {
+    display: grid;
 }

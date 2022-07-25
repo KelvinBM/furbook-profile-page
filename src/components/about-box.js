@@ -1,8 +1,8 @@
+// eslint-disable-next-line
 import React, { Component } from 'react';
-
+import './css/about-box.css';
 const AboutBox = () => {
     return(
-        <div className= "AboutBox">
             <div className="col-7 offset-1 about-box">
                 <ul className="list-group">
                     <p className="list-group-item heading">About</p>
@@ -15,7 +15,6 @@ const AboutBox = () => {
                     <p className="list-group-item">Places Lived: Paris, France and Bronx, New York</p>
                 </ul>
             </div>
-        </div>
     );
 }
 

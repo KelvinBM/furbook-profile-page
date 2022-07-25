@@ -13,15 +13,21 @@ const App = () => {
       <div className="App">
         <PetNav/>
         <div className="container">
-            <PictureBox/>
-            <AboutBox/> 
-            <Post/>
-        </div>
+            <div className= "row">            
+                <PictureBox/>
+                <AboutBox/>
+            </div>
+        </div>    
+            <div className= "row">
+                <Post/>        
+            </div>
+
       </div>
-    )
+      
+    );
   }
 
-  return component
+  return component;
 }
 
 export default App;
